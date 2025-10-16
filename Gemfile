@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 
+gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "jekyll-remote-theme"  # For remote theme support locally
+gem "webrick", "~> 1.8"    # Optional, for local serve on newer Ruby
 gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
