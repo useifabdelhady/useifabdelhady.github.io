@@ -2,10 +2,9 @@
 
 source "https://rubygems.org"
 
-gem "github-pages", "~> 232", group: :jekyll_plugins
-gem "jekyll-remote-theme"  # For remote theme support locally
-gem "webrick", "~> 1.8"    # Optional, for local serve on newer Ruby
-gemspec
+gem "jekyll", "~> 4.3"  # Required for Chirpy
+gem "jekyll-remote-theme"  # For loading Chirpy remotely
+gem "webrick", "~> 1.8"    # For local serve on newer Ruby
 
 gem "html-proofer", "~> 5.0", group: :test
 
